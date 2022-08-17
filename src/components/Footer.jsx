@@ -14,12 +14,11 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import logo from "../assets/icons/logo.svg";
 
 export default function Footer() {
   return (
     <Paper
-      sx={{ left: 0, bottom: 0, right: 0, width: "100%" }}
+      sx={{ left: 0, bottom: 0, right: 0, width: "100%", color:"black", backgroundColor:"black" }}
       component="footer"
       square
       variant="outlined"
@@ -46,37 +45,37 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
           >
-            <InstagramIcon sx={{ mr: 7, color: "#8C2CEF" }} />
+            <InstagramIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
             href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
           >
-            <TelegramIcon sx={{ mr: 7, color: "#8C2CEF" }} />
+            <TelegramIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
             href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
           >
-            <WhatsAppIcon sx={{ mr: 7, color: "#8C2CEF" }} />
+            <WhatsAppIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
             href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
           >
-            <TwitterIcon sx={{ mr: 7, color: "#8C2CEF" }} />
+            <TwitterIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
             href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
           >
-            <MailOutlineIcon sx={{ mr: 7, color: "#8C2CEF" }} />
+            <MailOutlineIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
             href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
           >
-            <GitHubIcon sx={{ mr: 7, color: "#8C2CEF" }} />
+            <GitHubIcon sx={{ mr: 7, color: "white" }} />
           </Link>
         </Box>
         <Box
@@ -87,7 +86,7 @@ export default function Footer() {
             mb: 2,
           }}
         >
-          <Typography variant="caption" color="#8C2CEF">
+          <Typography variant="caption" color="white">
             Copyright ©2022.
           </Typography>
         </Box>

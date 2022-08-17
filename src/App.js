@@ -21,9 +21,6 @@ function App() {
                 position: "relative",
               }}
             >
-              <Box sx={{ width: "15%" }}>
-                <Navbar />
-              </Box>
               <Box sx={{ width: "80%" }}>
                 <MainRoutes />
               </Box>

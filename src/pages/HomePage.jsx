@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import AdsCards from "../components/products/AdsCards";
 
 // import {
 //   MDBCarousel,

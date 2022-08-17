@@ -5,8 +5,6 @@ import CartPage from "./pages/CartPage";
 import EditProductPage from "./pages/EditProductPage";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
-import NotFoundPage from "./pages/NotFoundPage";
-import ProductDetailsPage from "./pages/ProductDetailsPage";
 import ProductsPage from "./pages/ProductsPage";
 import RegistrationPage from "./pages/RegistrationPage";
 
@@ -33,29 +31,19 @@ const MainRoutes = () => {
       id: 4,
     },
     {
-      link: "/products/:id",
-      element: <ProductDetailsPage />,
-      id: 5,
-    },
-    {
       link: "/products",
       element: <ProductsPage />,
-      id: 6,
+      id: 5,
     },
     {
       link: "/login",
       element: <LoginPage />,
-      id: 7,
+      id: 6,
     },
     {
       link: "/register",
       element: <RegistrationPage />,
-      id: 8,
-    },
-    {
-      link: "*",
-      element: <NotFoundPage />,
-      id: 9,
+      id: 7,
     },
   ];
   return (
