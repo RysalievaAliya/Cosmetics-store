@@ -6,7 +6,6 @@ import SideBar from "../components/SideBar";
 const ProductsPage = () => {
   return (
     <Box sx={{ display: "flex" }}>
-      {/* ProductsPage */}
       <SideBar />
       <ProductList />
     </Box>
