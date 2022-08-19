@@ -56,7 +56,191 @@
       "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw81192610/ProductImages/2018/Face/Cant_Stop_Wont_Stop_Full_Coverage_Foundation/800897157173_cantstopwontstopfullcoveragefoundation_pale_main.jpg?sw=698&sfrm=jpg&q=70",
       "type": "tone creams",
       "id": 7
+    },
+    {
+      "name": "STUDIO FIX FLUID SPF 15",
+      "description": "Light beige with neutral golden undertone",
+      "price": "39.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_M6JC02_1x1_0.png?width=1080&height=1080",
+      "type": "tone creams",
+      "id": 8
+    },{
+      "name": "STUDIO SCULPT SPF 15 FOUNDATION",
+      "description": "Warm neutral beige with rosy undertone for light to medium skin",
+      "price": "41.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_MAN714_1x1_0.png?width=1080&height=1080",
+      "type": "tone creams",
+      "id": 9
+    },
+    {
+      "name": "STUDIO WATERWEIGHT SPF 30 FOUNDATION",
+      "description": "Light with golden undertone for light skin",
+      "price": "41.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_MXCT01_1x1_0.png?width=1080&height=1080",
+      "type": "tone creams",
+      "id": 10
+    },
+    {
+      "name": "PRO LONGWEAR NOURISHING WATERPROOF FOUNDATION",
+      "description": "Light peachy beige with golden undertone for light skin",
+      "price": "41.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_MXCE02_1x1_0.png?width=1080&height=1080",
+      "type": "tone creams",
+      "id": 11
+    },
+    {
+      "name": "STUDIO RADIANCE FACE AND BODY RADIANT SHEER FOUNDATION",
+      "description": "Warm beige with neutral rosy undertones for medium to dark skin",
+      "price": "39.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_SMXT26_1x1_0.png?width=1080&height=1080",
+      "type": "tone creams",
+      "id": 12
+    },
+    {
+      "name": "Dior",
+      "description": "Dior Forever Matte Skincare Foundation",
+      "price": "65.00 $",
+      "picture": "https://image.s5a.com/is/image/TheBay/3348901612081_main?wid=480&hei=640&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0",
+      "type": "tone creams",
+      "id": 13
+    },
+    {
+      "name": "Dior",
+      "description": "Airflash Spray Foundation",
+      "price": "78.00 $",
+      "picture": "https://image.s5a.com/is/image/TheBay/3348901444347_main?wid=480&hei=640&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0",
+      "type": "tone creams",
+      "id": 14
+    },
+    {
+      "name": "GREEN EDITION",
+      "description": "SUPERDROP TINTED OIL, ADJUSTABLE COVERAGE",
+      "price": "11.99 $",
+      "picture": "https://www.maybelline.com/~/media/mny/us/face-makeup/foundation/green-edition-face-makeup-superdrop-tinted-oil-makeup-adjustable-coverage/new%20images/v2/maybelline-green-edition-face-superdrop-tinted-oil-60-041554072365-av63_375x563.jpg?thn=0&w=380&hash=8BFB771F124333043F61CD3E9F790780B19F898C",
+      "type": "tone creams",
+      "id": 15
+    },
+    {
+      "name": "Dior",
+      "description": "Addict Lip Glow Balm",
+      "price": "46.00 $",
+      "picture": "https://image.s5a.com/is/image/TheBay/3348901550741_main?wid=480&hei=640&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0",
+      "type": "lipsticks",
+      "id": 16
+    },
+    {
+      "name": "Dior",
+      "description": "Rouge Dior Forever Liquid Transfer-Proof Lipstick",
+      "price": "50.00 $",
+      "picture": "https: //image.s5a.com/is/image/TheBay/3348901588393_main?wid=480&hei=640&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0",
+      "type": "lipsticks",
+      "id": 17
+    },
+    {
+      "name": "GREEN EDITION",
+      "description": "MEGA MOUSSE MASCARA MAKEUP",
+      "price": "11.99 $",
+      "picture": "https://www.maybelline.com/~/media/mny/global/eye-makeup/mascara/green-edition-mega-mousse-mascara/maybelline-green-edition-eye-mega-mousse-mascara-001-blackest-black-041554072426-o.jpg",
+      "type": "mascara",
+      "id": 18
+    },
+    {
+      "name": "LASH SENSATIONAL®",
+      "description": "CURVITUDE™ WATERPROOF MASCARA",
+      "price": "9.99 $",
+      "picture": "https: //www.maybelline.com/~/media/mny/global/eye-makeup/mascara/lash-sensational-curvitude-waterproof-mascara/maybelline-mascara-lash-sensational-curvitude-waterproof-very-black-041554496260-t.jpg?thn=0&w=380&hash=4DC7255F84A0415D7D7107C9E8758D5C6C8F1538",
+      "type": "mascara",
+      "id": 19
+    },
+    {
+      "name": "TOTAL TEMPTATION™",
+      "description": "WATERPROOF MASCARA",
+      "price": "10.99 $",
+      "picture": "https: //www.maybelline.com/~/media/mny/global/eye-makeup/mascara/total-temptation-waterproof-mascara/maybelline-mascara-total-temptation-waterproof-very-black-041554522679-t.jpg?thn=0&w=380&hash=1AF1879F2915015C6AAEE4B5DFBD196EECC794C28",
+      "type": "mascara",
+      "id": 20
+    },
+    {
+      "name": "MINERALIZE CHARGED WATER MOISTURE GEL",
+      "description": "An ultra-light formula that intensely hydrates and leaves skin more supple and luminous.",
+      "price": "41.00 $",
+      "picture": "https: //sdcdn.io/mac/us/mac_sku_MKXR01_1x1_0.png?width=1080&height=1080",
+      "type": "creams",
+      "id": 21
+    },
+    {
+      "name": "FAST RESPONSE EYE CREAM",
+      "description": "A caffeinated cream that produces instant effects.",
+      "price": "34.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_M6GW01_1x1_0.png?width=1080&height=1080",
+      "type": "creams",
+      "id": 22
+    },
+    {
+      "name": "STUDIO MOISTURE CREAM",
+      "description": "A super-rich moisturizer that moistens and feeds the skin.",
+      "price": "36.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_MA7F01_1x1_0.png?width=1080&height=1080",
+      "type": "creams",
+      "id": 23
+    },
+    {
+      "name": "MLIGHTFUL C3 RADIANT HYDRATION SKIN RENEWAL LOTION",
+      "description": "Instant soothing through hydration, softening and radiance with a dewy glow. Over time, skin appears healthier and more plumped.",
+      "price": "31.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_SKRM01_1x1_0.png?width=1080&height=1080",
+      "type": "creams",
+      "id": 24
+    },
+    {
+      "name": "COMPLETE COMFORT CREME",
+      "description": "A moisturizer that rehydrates skin and provides relief for sensitive skin.",
+      "price": "36.00 $",
+      "picture": "https://sdcdn.io/mac/us/mac_sku_MH5401_1x1_0.png?width=1080&height=1080",
+      "type": "creams",
+      "id": 25
+    },
+    {
+      "name": "Dior",
+      "description": "ADiorshow On Stage Liner",
+      "price": "40.00 $",
+      "picture": "https://image.s5a.com/is/image/TheBay/3348901596077_main?wid=480&hei=640&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0",
+      "type": "eyeliner",
+      "id": 26
+    },
+    {
+      "name": "EYESTUDIO®",
+      "description": "HYPER EASY NO SLIP PENCIL EYELINER MAKEUP",
+      "price": "9.99 $",
+      "picture": "https://www.maybelline.com/~/media/mny/us/eye-makeup/eyeliner/eyestudio-hyper-easy-no-slip-pencil-eyeliner-makeup/black/maybelline-eye-liner-hyper-easy-no-slip-pencil-001-black-041554588736-primary.jpg?thn=0&w=380&hash=39181DAE66DD67333DB62597D28C21B4848FFD7E",
+      "type": "eyeliner",
+      "id": 27
+    },
+    {
+      "name": "TATTOOSTUDIO™",
+      "description": "LIQUID INK EYELINER",
+      "price": "7.99 $",
+      "picture": "https: //www.maybelline.com/~/media/mny/us/eye-makeup/eyeliner/tattoostudio-liquid-ink-eyeliner/maybelline-tattoo-studio-liquid-liner-ink-black-oward-seal.jpg?thn=0&w=380&hash=820F15CCAAA28044B66E61086A5D549E9EFD7A9A",
+      "type": "eyeliner",
+      "id": 28
+    },
+    {
+      "name": "CURVITUDE™",
+      "description": "EYELINER",
+      "price": "8.99 $",
+      "picture": "https://www.maybelline.com/~/media/mny/global/eye-makeup/eyeliner/curvitude-liner/maybelline-eyeliner-curvitude-liner-black-041554494198-o.jpg?thn=0&w=380&hash=9F4722C9C552AEE6634F3C78314F7F0DA2FE5CA8",
+      "type": "eyeliner",
+      "id": 29
+    },
+    {
+      "name": "MASTER PRECISE INK™",
+      "description": "METALLIC LIQUID EYELINER",
+      "price": "9.99 $",
+      "picture": "https://www.maybelline.com/~/media/mny/global/eye-makeup/eyeliner/master-precise-ink-metallic-liquid-liner/maybelline-eyeliner-master-precise-ink-metallic-liquid-liner-black-comet-041554541915-o.jpg?thn=0&w=380&hash=F202C317AC6F2D028F239FEF78C05BE26701D130",
+      "type": "eyeliner",
+      "id": 30
     }
+  
   ],
   "users": [
     {

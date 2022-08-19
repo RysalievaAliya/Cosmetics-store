@@ -47,9 +47,6 @@ export default function RegistrationPage() {
             Username
           </p>
           <div className="auth-input__form">
-            <label htmlFor="email">
-              <PersonOutlineIcon id="usernameInp" className="auth-input__icon" sx={{color: changeColorProfile, transition: "all 100ms"}}/>
-            </label>
             <input
               placeholder="Type username"
               className="auth-input"
@@ -101,3 +98,6 @@ export default function RegistrationPage() {
 
   );
 }
+
+
+
