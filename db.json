@@ -1,3 +1,12 @@
 {
-  "products": []
+  "products": [
+    {
+      "name": "23wetr",
+      "description": "12345",
+      "price": 1243,
+      "picture": "1234",
+      "type": "4tre",
+      "id": 5
+    }
+  ]
 }

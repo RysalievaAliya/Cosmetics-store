@@ -21,7 +21,7 @@ function App() {
                 position: "relative",
               }}
             >
-              <Box sx={{ width: "80%" }}>
+              <Box sx={{ width: "100%" }}>
                 <MainRoutes />
               </Box>
               <Box

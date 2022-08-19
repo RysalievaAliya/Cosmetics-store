@@ -18,7 +18,14 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 export default function Footer() {
   return (
     <Paper
-      sx={{ left: 0, bottom: 0, right: 0, width: "100%", color:"black", backgroundColor:"black" }}
+      sx={{
+        left: 0,
+        bottom: 0,
+        right: 0,
+        width: "100%",
+        color: "black",
+        backgroundColor: "black",
+      }}
       component="footer"
       square
       variant="outlined"
@@ -43,37 +50,37 @@ export default function Footer() {
         >
           <Link
             target="_blank"
-            href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
+            href="https://github.com/RysalievaAliya/Cosmetics-store"
           >
             <InstagramIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
-            href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
+            href="https://github.com/RysalievaAliya/Cosmetics-store"
           >
             <TelegramIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
-            href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
+            href="https://github.com/RysalievaAliya/Cosmetics-store"
           >
             <WhatsAppIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
-            href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
+            href="https://github.com/RysalievaAliya/Cosmetics-store"
           >
             <TwitterIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
-            href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
+            href="https://github.com/RysalievaAliya/Cosmetics-store"
           >
             <MailOutlineIcon sx={{ mr: 7, color: "white" }} />
           </Link>
           <Link
             target="_blank"
-            href="https://github.com/badoalmaz/project_with_mentor_java_post_scriptum"
+            href="https://github.com/RysalievaAliya/Cosmetics-store"
           >
             <GitHubIcon sx={{ mr: 7, color: "white" }} />
           </Link>

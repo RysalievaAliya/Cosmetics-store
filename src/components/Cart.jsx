@@ -26,7 +26,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
     backgroundColor: theme.palette.action.hover,
   },
-  // hide last border
+
   "&:last-child td, &:last-child th": {
     border: 0,
   },
@@ -78,9 +78,6 @@ export default function Cart() {
             </StyledTableCell>
             <StyledTableCell sx={trHeadStyle} align="right">
               Price
-            </StyledTableCell>
-            <StyledTableCell sx={trHeadStyle} align="right">
-              Count
             </StyledTableCell>
             <StyledTableCell sx={trHeadStyle} align="right">
               Sub Price

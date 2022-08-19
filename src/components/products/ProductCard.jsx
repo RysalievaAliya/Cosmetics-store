@@ -10,7 +10,6 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Box, IconButton, Rating, Stack } from "@mui/material";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { useCart } from "../../contexts/CartContextProvider";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "../../styles/card.css";
@@ -87,6 +86,7 @@ export default function ProductCard({ item }) {
 
       <CardActions className={"button"}>
         <Button
+          sx={{ color: "black" }}
           startIcon={<DeleteIcon />}
           onClick={() => deleteProduct(item.id)}
         >
@@ -94,6 +94,7 @@ export default function ProductCard({ item }) {
         </Button>
 
         <Button
+          sx={{ color: "black" }}
           startIcon={<EditIcon />}
           onClick={() => navigate(`/edit/${item.id}`)}
         >

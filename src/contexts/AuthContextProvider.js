@@ -33,7 +33,6 @@ const AuthContextProvider = ({ children }) => {
   };
 
   const login = async (email, password) => {
-    // console.log(user);
     let formData = new FormData();
     formData.append("username", email);
     formData.append("password", password);
