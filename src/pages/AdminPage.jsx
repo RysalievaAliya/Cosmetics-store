@@ -6,9 +6,8 @@ import AddProduct from "../components/products/AddProduct";
 const AdminPage = () => {
   return (
     <div>
-      <Box sx={{ margin: '2%' }}>
-        <Typography variant="h3" sx={{ fontWeight: '700' }}>Admin panel</Typography>
-        <Typography variant="body1" sx={{mt: 2}}>if you are not an admin, please leave</Typography>
+      <Box sx={{ margin: "2%" }}>
+        <Typography variant="body1" sx={{ mt: 2 }}></Typography>
       </Box>
       <AddProduct />
     </div>

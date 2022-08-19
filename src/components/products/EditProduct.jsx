@@ -11,9 +11,6 @@ const EditProduct = () => {
 
   const navigate = useNavigate();
 
-  // console.log(productDetails, "productDetails");
-  // console.log(product, "product");
-
   const { id } = useParams();
 
   useEffect(() => {
@@ -43,6 +40,7 @@ const EditProduct = () => {
   return (
     <Box
       sx={{
+        bgcolor: "black",
         width: "40vw",
         margin: "10vh auto",
         display: "flex",
@@ -51,13 +49,15 @@ const EditProduct = () => {
         alignItems: "center",
       }}
     >
-      <Typography variant="h6" sx={{m:2}}>Edit product</Typography>
+      <Typography variant="h6" sx={{ m: 2 }}>
+        Edit product
+      </Typography>
       <TextField
         sx={{ m: 1 }}
         id="standard-basic"
         label="Name"
         variant="outlined"
-        color="secondary"
+        color="red"
         fullWidth
         name="name"
         onChange={handleInp}
@@ -69,7 +69,7 @@ const EditProduct = () => {
         id="standard-basic"
         label="Description"
         variant="outlined"
-        color="secondary"
+        color="red"
         fullWidth
         name="description"
         onChange={handleInp}
@@ -81,7 +81,7 @@ const EditProduct = () => {
         id="standard-basic"
         label="Price"
         variant="outlined"
-        color="secondary"
+        color="red"
         fullWidth
         name="price"
         onChange={handleInp}
@@ -93,7 +93,7 @@ const EditProduct = () => {
         id="standard-basic"
         label="Picture"
         variant="outlined"
-        color="secondary"
+        color="red"
         fullWidth
         name="picture"
         onChange={handleInp}
@@ -105,7 +105,7 @@ const EditProduct = () => {
         id="standard-basic"
         label="Type"
         variant="outlined"
-        color="secondary"
+        color="red"
         fullWidth
         name="type"
         onChange={handleInp}
@@ -115,7 +115,7 @@ const EditProduct = () => {
       <Button
         sx={{
           m: 1,
-          bgcolor: "#8C2CEF",
+          bgcolor: "black",
           color: "#fff",
           "&:hover": { bgcolor: "#8125DC" },
         }}

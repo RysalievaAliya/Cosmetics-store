@@ -77,8 +77,6 @@ const ProductContextProvider = ({ children }) => {
     navigate(url);
   };
 
-  // console.log(location.pathname);
-
   const values = {
     getProducts,
     addProduct,

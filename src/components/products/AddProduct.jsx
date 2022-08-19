@@ -45,7 +45,9 @@ const AddProduct = () => {
         alignItems: "center",
       }}
     >
-      <Typography variant="h6" sx={{m:2}}>Add new product</Typography>
+      <Typography variant="h6" sx={{ m: 2 }}>
+        Add new product
+      </Typography>
       <TextField
         sx={{ m: 1 }}
         color="secondary"
@@ -99,9 +101,9 @@ const AddProduct = () => {
       <Button
         sx={{
           m: 1,
-          bgcolor: "#8C2CEF",
-          color: "#fff",
-          "&:hover": { bgcolor: "#8125DC" },
+          bgcolor: "black",
+          color: "white",
+          "&:hover": { bgcolor: "pink" },
         }}
         variant="outlined"
         fullWidth
