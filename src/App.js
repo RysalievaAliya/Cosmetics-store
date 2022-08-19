@@ -21,19 +21,20 @@ function App() {
                 position: "relative",
               }}
             >
-              <Box sx={{ width: "80%" }}>
+              <Box sx={{ width: "100%" }}>
                 <MainRoutes />
+                <Footer />
               </Box>
-              <Box
+              {/* <Box
                 sx={{
-                  position: "absolute",
+                  position:"absolute",
                   bottom: "0",
                   width: "100%",
                   zIndex: "2000",
                 }}
               >
                 <Footer />
-              </Box>
+              </Box> */}
             </Box>
           </CartContextProvider>
         </ProductContextProvider>

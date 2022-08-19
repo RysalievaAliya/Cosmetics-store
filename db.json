@@ -1,3 +1,66 @@
 {
-  "products": []
+  "products": [
+    {
+      "name": "BUTTER GLOSS",
+      "description": "Fan Fave Buttery Gloss",
+      "price": "5.00 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw613e090c/ProductImages/2022/LIPS/BUTTER-GLOSS/NYX-PMU-Makeup-Lips-Lip-Gloss-BUTTER-LIP-GLOSS-BLG54-SUGAR-GLASS-0800897226596-OpenSwatch.jpg?sw=570&sh=570&sm=cut&sfrm=jpg&q=70",
+      "type": "lipsticks",
+      "id": 1
+    },
+    {
+      "name": "SHINE LOUD HIGH SHINE LIP COLOR",
+      "description": "High-Shine 16h Gloss",
+      "price": "12.00 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwc29d168a/ProductImages/2022/LIPS/SHINE-LOUD/NYX-PMU-Makeup-Lips-Lip-Gloss-SHINE-LOUD-HIGH-PIGMENT-LIP-SHINE-SLHP28-STAY-STUNTIN-0800897217891-OpenSwatch.jpg?sw=698&sfrm=jpg&q=70",
+      "type": "lipsticks",
+      "id": 2
+    },
+    {
+      "name": "SOFT MATTE LIP CREAM",
+      "description": "Plush Matte Formula",
+      "price": "6.5 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5d267ac7/ProductImages/Lips/Soft_Matte_Lip_Cream/800897142865_softmattelipcream_antwerp_main.jpg?sw=375&sfrm=jpg&q=70",
+      "type": "lipsticks",
+      "id": 3
+    },
+    {
+      "name": "SUEDE MATTE LIPSTICK",
+      "description": "Matte Liquid Lipstick",
+      "price": "8.00 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw3bbc388a/ProductImages/2018/Lips/Suede_Matte_Lipstick/800897170653_suedemattelipstick_daintygaze_main.jpg?sw=375&sfrm=jpg&q=70",
+      "type": "lipsticks",
+      "id": 4
+    },
+    {
+      "name": "LIP LINGERIE",
+      "description": "Nude Matte Lipstick",
+      "price": "7.00 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw948d7f61/ProductImages/2017/Lips/Lip_Lingerie_Extension/800897077945_liplingerie_frenchmaid_main.jpg?sw=375&sfrm=jpg&q=70",
+      "type": "lipsticks",
+      "id": 5
+    },
+    {
+      "name": "THIS IS MILKY GLOSS MILKSHAKES",
+      "description": "12H Hydration Scented Vegan Lip Gloss",
+      "price": "8.5 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw70cbf597/ProductImages/2022/LIPS/THIS-IS-MILKY-GLOSS/TIMG12-Malt-Shake/NYX-PMU-Makeup-Lips-Lip-Gloss-THIS-IS-MILKY-LIP-GLOSS-TIMG12-MALT-SHAKE-0800897225216-OpenSwatch.jpg?sw=375&sfrm=jpg&q=70",
+      "type": "lipsticks",
+      "id": 6
+    },
+    {
+      "name": "CAN'T STOP WON'T STOP FOUNDATION",
+      "description": "Full Coverage Foundation",
+      "price": "15.00 $",
+      "picture": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw81192610/ProductImages/2018/Face/Cant_Stop_Wont_Stop_Full_Coverage_Foundation/800897157173_cantstopwontstopfullcoveragefoundation_pale_main.jpg?sw=698&sfrm=jpg&q=70",
+      "type": "tone creams",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "username":"admin",
+      "password": "admin"
+    }
+  ]
 }
