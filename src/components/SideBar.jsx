@@ -34,20 +34,35 @@ const SideBar = () => {
     getProducts();
   }, []);
 
-  //   console.log(window.location.search);
 
   return (
     <Paper
       sx={{
-        m: 5,
+        m: 0,
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-start",
-        p: 5,
-        maxHeight: "50vh",
+        p: 0,
+        maxHeight: "150vh",
+        marginLeft: 0
       }}
     >
       <Box>
+        <TextField
+          sx={{ mt: 5 }}
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          id="input-with-icon-textfield"
+          // label="TexxtField"
+          InputProps={{
+            startAdornment: (
+              <InputAdornment position="start">
+                <SearchIcon />
+              </InputAdornment>
+            ),
+          }}
+          variant="outlined"
+        />
         <FormControl>
           <FormLabel id="demo-radio-buttons-group-label" sx={{ mb: 2 }}>
             Categories
@@ -59,36 +74,14 @@ const SideBar = () => {
             onChange={(e) => fetchByParams("type", e.target.value)}
           >
             <FormControlLabel value="all" control={<Radio />} label="All" />
-            <FormControlLabel
-              value="electronics"
-              control={<Radio />}
-              label="Electronics"
-            />
-            <FormControlLabel value="sport" control={<Radio />} label="Sport" />
-
-            <FormControlLabel
-              value="clothes"
-              control={<Radio />}
-              label="Clothes"
-            />
+            <FormControlLabel value="lipsticks" control={<Radio />} label="lipsticks" />
+            <FormControlLabel value="creams" control={<Radio />} label="creams" />
+            <FormControlLabel value="tone creams" control={<Radio />} label="tone creams" />
+            <FormControlLabel value="mascara" control={<Radio />} label="mascara" />
+            <FormControlLabel value="eyeliner" control={<Radio />} label="eyeliner" />
           </RadioGroup>
         </FormControl>
       </Box>
-      <TextField
-        sx={{ mt: 3 }}
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        id="input-with-icon-textfield"
-        // label="TexxtField"
-        InputProps={{
-          startAdornment: (
-            <InputAdornment position="start">
-              <SearchIcon />
-            </InputAdornment>
-          ),
-        }}
-        variant="outlined"
-      />
     </Paper>
   );
 };

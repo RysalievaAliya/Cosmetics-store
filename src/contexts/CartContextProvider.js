@@ -70,11 +70,6 @@ const CartContextProvider = ({ children }) => {
     let productToFind = cart.products.filter(
       (elem) => elem.item.id === product.id
     );
-
-    // если не найдется элемент в localStorage,
-    // то он добавит элемент в localStorage,а если найдет, то удалит
-
-    // если не найдется элемент в localStorage, то он добавит элемент в localStorage,а если найдет, то удалит
     if (productToFind.length === 0) {
       cart.products.push(newProduct);
     } else {

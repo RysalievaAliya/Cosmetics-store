@@ -1,8 +1,10 @@
-import { Box, Pagination } from "@mui/material";
+import { Box, Pagination, Stack } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useProducts } from "../../contexts/ProductContextProvider";
 import ProductCard from "./ProductCard";
+import Spinner from 'react-bootstrap/Spinner';
+
 
 const ProductList = () => {
   const { products, getProducts } = useProducts();
@@ -11,7 +13,7 @@ const ProductList = () => {
   console.log(searchParams);
 
   const [page, setPage] = useState(1);
-  const itemsPerPage = 3;
+  const itemsPerPage = 9;
   const count = Math.ceil(products.length / itemsPerPage);
 
   useEffect(() => {
@@ -52,18 +54,12 @@ const ProductList = () => {
         {products ? (
           currentData().map((item) => <ProductCard item={item} key={item.id} />)
         ) : (
-          <h3>Loading...</h3>
+          <Spinner animation="grow" sx={{justifyContent:"center"}}/>
         )}
       </Box>
-
-      <Pagination
-        variant="outlined"
-        shape="rounded"
-        sx={{ m: "0 auto" }}
-        count={count}
-        page={page}
-        onChange={handlePage}
-      />
+      <Stack spacing={2}>
+        <Pagination count={count} page={page} variant="outlined" onChange={handlePage} />
+      </Stack>
     </Box>
   );
 };

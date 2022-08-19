@@ -58,7 +58,7 @@ export default function Cart() {
   }
 
   const trHeadStyle = {
-    backgroundColor: "#666699 !important",
+    backgroundColor: "black !important",
   };
 
   return (
@@ -119,7 +119,7 @@ export default function Cart() {
               <StyledTableCell align="right">
                 <Button
                   onClick={() => deleteProductInCart(row.item.id)}
-                  startIcon={<DeleteIcon sx={{ color: "#666699" }} />}
+                  startIcon={<DeleteIcon sx={{ color: "black" }} />}
                 ></Button>
               </StyledTableCell>
             </StyledTableRow>
