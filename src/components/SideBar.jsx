@@ -10,7 +10,6 @@ import {
   RadioGroup,
   styled,
   TextField,
-  Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
@@ -133,8 +132,6 @@ const SideBar = () => {
     getProducts();
   }, []);
 
-
-
   return (
     <Paper
       sx={{
@@ -144,7 +141,7 @@ const SideBar = () => {
         justifyContent: "flex-start",
         p: 0,
         maxHeight: "150vh",
-        marginLeft: 0
+        marginLeft: 0,
       }}
     >
       <Box>
@@ -174,14 +171,33 @@ const SideBar = () => {
             onChange={(e) => fetchByParams("type", e.target.value)}
           >
             <FormControlLabel value="all" control={<Radio />} label="All" />
-            <FormControlLabel value="lipsticks" control={<Radio />} label="lipsticks" />
-            <FormControlLabel value="creams" control={<Radio />} label="creams" />
-            <FormControlLabel value="tone creams" control={<Radio />} label="tone creams" />
-            <FormControlLabel value="mascara" control={<Radio />} label="mascara" />
-            <FormControlLabel value="eyeliner" control={<Radio />} label="eyeliner" />
+            <FormControlLabel
+              value="lipsticks"
+              control={<Radio />}
+              label="lipsticks"
+            />
+            <FormControlLabel
+              value="creams"
+              control={<Radio />}
+              label="creams"
+            />
+            <FormControlLabel
+              value="tone creams"
+              control={<Radio />}
+              label="tone creams"
+            />
+            <FormControlLabel
+              value="mascara"
+              control={<Radio />}
+              label="mascara"
+            />
+            <FormControlLabel
+              value="eyeliner"
+              control={<Radio />}
+              label="eyeliner"
+            />
           </RadioGroup>
         </FormControl>
-
       </Box>
     </Paper>
   );

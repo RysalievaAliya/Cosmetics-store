@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const authContext = React.createContext();
 export const useAuth = () => useContext(authContext);
 
-const API = "http://localhost:8000/users";
+const API = "http://35.239.251.89/";
 
 const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState("");
@@ -43,6 +43,7 @@ const AuthContextProvider = ({ children }) => {
       console.log(res.data);
       localStorage.setItem("token", JSON.stringify(res.data));
       localStorage.setItem("username", email);
+      navigate("/");
     } catch (error) {
       console.log(error);
       setError("Wrong username or password", error);
