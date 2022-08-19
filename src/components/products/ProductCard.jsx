@@ -67,21 +67,6 @@ export default function ProductCard({ item }) {
 
       <Stack spacing={1} className="rating_button">
         <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
-        <Box>
-          <IconButton
-            variant="outlined"
-            onClick={() => addProductToCart(item)}
-            sx={{
-              p: "5px",
-              mb: "10px",
-            }}
-          >
-            <ShoppingCartIcon
-              color={checkProductInCart(item.id) ? "primary" : ""}
-              sx={{ mr: "5px" }}
-            />
-          </IconButton>
-        </Box>
       </Stack>
 
       <CardActions className={"button"}>
@@ -100,13 +85,17 @@ export default function ProductCard({ item }) {
         >
           EDIT
         </Button>
-
-        <Button
-          startIcon={<MoreHorizIcon />}
-          onClick={() => navigate(`/products/${item.id}`)}
-        >
-          MORE
-        </Button>
+        <Box>
+          <IconButton
+            variant="outlined"
+            onClick={() => addProductToCart(item)}
+            sx={{p: "5px",mb: "10px",}}>
+            <ShoppingCartIcon
+              color={checkProductInCart(item.id) ? "primary" : ""}
+              sx={{ mr: "5px" }}
+            />
+          </IconButton>
+        </Box>
       </CardActions>
     </Card>
   );

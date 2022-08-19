@@ -1,0 +1,52 @@
+#getStarted {
+    font-family: 'Libre Baskerville', serif !important;
+    font-family: 'Prata', serif !important;
+    color:darkslategray !important;
+    margin-bottom: 5% !important;
+    font-weight: bold !important;
+}
+
+#homeButton {
+    font-family: 'Libre Baskerville', serif !important;
+    font-family: 'Prata', serif !important;
+    margin-bottom: 10% !important;
+    width: 30% !important;
+    height: 30% !important;
+}
+
+#getStarted2 {
+    font-family: 'Libre Baskerville', serif !important;
+    font-family: 'Prata', serif !important;
+    color: white !important;
+    margin-bottom: 5% !important;
+    font-weight: bold !important;
+}
+
+#homeButton2 {
+    background-color: white !important;
+}
+
+#getStarted3 {
+    font-family: 'Libre Baskerville', serif !important;
+    font-family: 'Prata', serif !important;
+    color: darkslategray !important;
+    margin-bottom: 10% !important;
+    font-weight: bold !important;
+}
+
+#homeButton3 {
+    background-color: black !important;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif !important;
+    font-family: 'Prata', serif !important;
+    color:black !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important; 
+}
+
+#modelImg {
+    height: 10%;
+    width: 100%;
+}

@@ -53,8 +53,7 @@ export default function LoginPage() {
           sm={4}
           md={7}
           sx={{
-            background:
-              "url(https://media.istockphoto.com/photos/various-cosmetic-accessories-for-makeup-and-manicure-on-trendy-pastel-picture-id1320345717?b=1&k=20&m=1320345717&s=170667a&w=0&h=1KnoIGIpmjvvghSzl5MwGvnPcF-9R0pV794iFKQuE-M=)",
+           backgroundImag:`url($"{https://media.istockphoto.com/photos/various-cosmetic-accessories-for-makeup-and-manicure-on-trendy-pastel-picture-id1320345717?b=1&k=20&m=1320345717&s=170667a&w=0&h=1KnoIGIpmjvvghSzl5MwGvnPcF-9R0pV794iFKQuE-M=})`,
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"

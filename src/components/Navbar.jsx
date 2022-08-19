@@ -1,17 +1,19 @@
-import * as React from "react";
-import { styled, alpha } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import InputBase from "@mui/material/InputBase";
-import SearchIcon from "@mui/icons-material/Search";
-import logo from "../assets/icons/logo.svg";
-import { Button, Link } from "@mui/material";
+import * as React from 'react';
+import { styled, alpha } from '@mui/material/styles';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import InputBase from '@mui/material/InputBase';
+import logo from '../assets/icons/logo.svg'
+import { Button, Link } from '@mui/material';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 
-const Search = styled("div")(({ theme }) => ({
-  position: "relative",
+
+const Search = styled('div')(({ theme }) => ({
+  position: 'relative',
   borderRadius: theme.shape.borderRadius,
   backgroundColor: alpha(theme.palette.common.white, 0.15),
   "&:hover": {
@@ -82,7 +84,20 @@ export default function Navbar() {
               />
             </IconButton>
           </Typography>
-          <Link to="/register">
+          <Link
+            href="/cart">
+            <Button
+              sx={{
+                my: 1,
+                color: "white",
+                width: "100%",
+                textTransform: "capitalize",
+              }}
+            >
+              <ShoppingCartIcon/>
+            </Button>
+          </Link>
+          <Link href="/register">
             <Button
               sx={{
                 my: 1,
@@ -94,7 +109,7 @@ export default function Navbar() {
               Register
             </Button>
           </Link>
-          <Link to="/login">
+          <Link href="/login">
             <Button
               sx={{
                 my: 1,
@@ -106,27 +121,9 @@ export default function Navbar() {
               Login
             </Button>
           </Link>
-          <Link to="/contact">
-            <Button
-              sx={{
-                my: 1,
-                color: "white",
-                width: "100%",
-                textTransform: "capitalize",
-              }}
-            >
-              ContactUs
-            </Button>
+          <Link href="/contact">
+            <ContactSupportIcon sx={{color:"white"}}/>
           </Link>
-          <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ "aria-label": "search" }}
-            />
-          </Search>
         </Toolbar>
       </AppBar>
     </Box>

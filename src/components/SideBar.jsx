@@ -128,22 +128,25 @@ const SideBar = () => {
     getProducts();
   }, []);
 
+
+
   return (
     <Paper
       sx={{
-        margin: "20px 0 0 -30px",
+        m: 0,
+        display: "flex",
         flexDirection: "column",
-        p: 5,
-        maxHeight: "100vh",
-        bgcolor: "transparent",
+        justifyContent: "flex-start",
+        p: 0,
+        maxHeight: "150vh",
+        marginLeft: 0
       }}
     >
-      <Box sx={{ display: "flex", flexDirection: "column" }}>
+      <Box>
         <TextField
-          sx={{ mt: 2, bgcolor: "white", borderRadius: "15px" }}
+          sx={{ mt: 5 }}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search"
           id="input-with-icon-textfield"
           InputProps={{
             startAdornment: (
@@ -155,34 +158,25 @@ const SideBar = () => {
           variant="outlined"
         />
 
-        {images.map((image) => (
-          <ImageButton
-            focusRipple
-            key={image.title}
-            style={{
-              width: image.width,
-            }}
+        <FormControl>
+          <FormLabel id="demo-radio-buttons-group-label" sx={{ mb: 2 }}>
+            Categories
+          </FormLabel>
+          <RadioGroup
+            aria-labelledby="demo-radio-buttons-group-label"
+            defaultValue="all"
+            name="radio-buttons-group"
+            onChange={(e) => fetchByParams("type", e.target.value)}
           >
-            <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
-            <ImageBackdrop className="MuiImageBackdrop-root" />
-            <Image>
-              <Typography
-                component="span"
-                variant="subtitle1"
-                color="inherit"
-                sx={{
-                  position: "relative",
-                  p: 4,
-                  pt: 2,
-                  pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
-                }}
-              >
-                {image.title}
-                <ImageMarked className="MuiImageMarked-root" />
-              </Typography>
-            </Image>
-          </ImageButton>
-        ))}
+            <FormControlLabel value="all" control={<Radio />} label="All" />
+            <FormControlLabel value="lipsticks" control={<Radio />} label="lipsticks" />
+            <FormControlLabel value="creams" control={<Radio />} label="creams" />
+            <FormControlLabel value="tone creams" control={<Radio />} label="tone creams" />
+            <FormControlLabel value="mascara" control={<Radio />} label="mascara" />
+            <FormControlLabel value="eyeliner" control={<Radio />} label="eyeliner" />
+          </RadioGroup>
+        </FormControl>
+
       </Box>
     </Paper>
   );
