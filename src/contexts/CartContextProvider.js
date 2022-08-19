@@ -70,7 +70,6 @@ const CartContextProvider = ({ children }) => {
     let productToFind = cart.products.filter(
       (elem) => elem.item.id === product.id
     );
-
     if (productToFind.length === 0) {
       cart.products.push(newProduct);
     } else {
